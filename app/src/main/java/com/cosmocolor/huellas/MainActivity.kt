@@ -37,6 +37,15 @@ class MainActivity : AppCompatActivity() {
             checkDevice()
         }
 
+        binding.btnCheck.setOnClickListener {
+            Log.d("TAG", "Gerardo")
+        }
+
+        binding.btnCheck.setOnClickListener {
+            Log.d("TAG", "Valeria")
+        }
+
+
         binding.btnCapture.setOnClickListener {
             captureImage()
         }
